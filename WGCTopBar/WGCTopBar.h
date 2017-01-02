@@ -41,7 +41,7 @@ typedef NS_ENUM(NSInteger, WGCTopBarIndicatorType) {
 
 @property (strong, nonatomic) UIColor *topBarItemBackgroudColor;//default is white.
 
-//move the indicator line to the item of index.
+//move the indicator lineView to the item of index, and make the item selected.
 - (void)moveIndicatorToIndex:(NSInteger)index;
 
 //move the indicator view centerX to centerX.
